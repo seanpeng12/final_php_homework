@@ -293,7 +293,7 @@
 					</form>
 				</div>
 				<div class="contact_form_container">
-					<form action="#" id="contact_form" class="contact_form">
+					<form action='onClick="output()' method="post" id="contact_form" class="contact_form">
 						<div class="row">
 							<div class="col-xl-12">
 								<!-- Name -->
@@ -311,20 +311,23 @@
 
 							function output() {
 								if (document.getElementById("teacher").checked) {
-									window.location = "teacher.php";
+									window.location.herf = "teacher.php";
+									window.event.returnValue = false;
 								}
 
 								if (document.getElementById("student").checked) {
-									window.location = "student.php";
+									window.location.herf = "student.php";
+									window.event.returnValue = false;
 								}
 								if (document.getElementById("admin").checked) {
-									window.location = "admin.php";
+									window.location.herf = "admin.php";
+									window.event.returnValue = false;
 
 								}
 							}
 						</script>
 
-						<button onClick="output()" class="button contact_button" type="submit"><span>確定</span></button>
+						<button  class="button contact_button" type="submit"><span>確定</span></button>
 						<a href="Sign_in.php" class="btn btn-light"> 忘記密碼？</a>
 					</form>
 				</div>
