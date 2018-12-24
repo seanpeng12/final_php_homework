@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html lang="en">
 <head>
 <title>資管系專題評分系統</title>
@@ -30,22 +30,22 @@
 							<nav class="main_nav">
 								<ul>
 									<li class="hassubs active">
-										<a href="index.html">首頁</a> <!--home-->
+										<a href="index.php">首頁</a> <!--home-->
 										<ul>
-											<li><a href="contact.html">登入</a></li>
+											<li><a href="contact.php">登入</a></li>
 										</ul>
 									</li>
 									<li class="hassubs">
-										<a href="categories.html">管理者工具</a>
+										<a href="categories.php">管理者工具</a>
 										<ul>
-											<li><a href="categories.html">帳號權限</a></li>
-											<li><a href="categories.html">專題評分</a></li>
-											<li><a href="categories.html">專題分組</a></li>
-											<li><a href="categories.html">專題文件</a></li>
+											<li><a href="categories.php">帳號權限</a></li>
+											<li><a href="categories.php">專題評分</a></li>
+											<li><a href="categories.php">專題分組</a></li>
+											<li><a href="categories.php">專題文件</a></li>
 										</ul>
 									</li>
-									<li><a href="contact.html">登入</a></li>
-									<li><a href="checkout.html">聯絡我們</a></li>
+									<li><a href="contact.php">登入</a></li>
+									<li><a href="checkout.php">聯絡我們</a></li>
 									
 								</ul>
 							</nav>
@@ -134,27 +134,27 @@
 				</div>
 				<ul class="page_menu_nav menu_mm">
 					<li class="page_menu_item has-children menu_mm">
-						<a href="index.html">Home<i class="fa fa-angle-down"></i></a>
+						<a href="index.php">Home<i class="fa fa-angle-down"></i></a>
 						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="categories.html">Categories<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="product.html">Product<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="cart.html">Cart<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="checkout.html">Checkout<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Categories<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="product.php">Product<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="cart.php">Cart<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="checkout.php">Checkout<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="contact.php">Contact<i class="fa fa-angle-down"></i></a></li>
 						</ul>
 					</li>
 					<li class="page_menu_item has-children menu_mm">
-						<a href="categories.html">Categories<i class="fa fa-angle-down"></i></a>
+						<a href="categories.php">Categories<i class="fa fa-angle-down"></i></a>
 						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
 						</ul>
 					</li>
-					<li class="page_menu_item menu_mm"><a href="index.html">Accessories<i class="fa fa-angle-down"></i></a></li>
+					<li class="page_menu_item menu_mm"><a href="index.php">Accessories<i class="fa fa-angle-down"></i></a></li>
 					<li class="page_menu_item menu_mm"><a href="#">Offers<i class="fa fa-angle-down"></i></a></li>
-					<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
+					<li class="page_menu_item menu_mm"><a href="contact.php">Contact<i class="fa fa-angle-down"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -189,7 +189,7 @@
 									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
 										<div class="home_slider_title">專題評分系統</div>
 										<div class="home_slider_subtitle"> Project Scoring System for FJUIM.</div>
-										<div class="button button_light home_button"><a href="contact.html">登入</a></div>
+										<div class="button button_light home_button"><a href="contact.php">登入</a></div>
 									</div>
 								</div>
 							</div>
@@ -208,7 +208,7 @@
 										<div class="home_slider_title">專題評分系統</div>
 										<div class="home_slider_subtitle">方便，快速，無紙化作業。</div>
 										<div>Project Scoring System for FJUIM.</div>
-										<div class="button button_light home_button"><a href="contact.html">登入</a></div>
+										<div class="button button_light home_button"><a href="contact.php">登入</a></div>
 									</div>
 								</div>
 							</div>
@@ -227,7 +227,7 @@
 										<div class="home_slider_title">專題評分系統</div>
 										<div class="home_slider_subtitle">隨時隨地，評分不受限。</div>
 										<div>Project Scoring System for FJUIM.</div>
-										<div class="button button_light home_button"><a href="contact.html">登入</a></div>
+										<div class="button button_light home_button"><a href="contact.php">登入</a></div>
 									</div>
 								</div>
 							</div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html lang="en">
 <head>
 <title>資管系專題評分系統</title>
@@ -30,31 +30,31 @@
 							<nav class="main_nav">
 								<ul>
 									<li class="hassubs active">
-										<a href="index.html">首頁</a> <!--home-->
+										<a href="index.php">首頁</a> <!--home-->
 										<ul>
-											<li><a href="categories.html">管理者工具</a></li>
-											<li><a href="product.html">Product</a></li>
-											<li><a href="cart.html">Cart</a></li>
-											<li><a href="checkout.html">Check out</a></li>
-											<li><a href="contact.html">登入</a></li>
+											<li><a href="categories.php">管理者工具</a></li>
+											<li><a href="product.php">Product</a></li>
+											<li><a href="cart.php">Cart</a></li>
+											<li><a href="checkout.php">Check out</a></li>
+											<li><a href="contact.php">登入</a></li>
 										</ul>
 									</li>
 									<li class="hassubs">
-										<a href="categories.html">管理者工具</a>
+										<a href="categories.php">管理者工具</a>
 										<ul>
-											<li><a href="categories.html">帳號權限</a></li>
-											<li><a href="categories.html">專題評分</a></li>
-											<li><a href="categories.html">專題分組</a></li>
-											<li><a href="categories.html">專題文件</a></li>
+											<li><a href="categories.php">帳號權限</a></li>
+											<li><a href="categories.php">專題評分</a></li>
+											<li><a href="categories.php">專題分組</a></li>
+											<li><a href="categories.php">專題文件</a></li>
 										</ul>
 									</li>
-									<li><a href="contact.html">登出</a></li>
+									<li><a href="contact.php">登出</a></li>
 									
 								</ul>
 							</nav>
 							<div class="header_extra ml-auto">
 								<div class="shopping_cart">
-									<a href="cart.html">
+									<a href="cart.php">
 										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 												 viewBox="0 0 489 489" style="enable-background:new 0 0 489 489;" xml:space="preserve">
 											<g>
@@ -137,27 +137,27 @@
 				</div>
 				<ul class="page_menu_nav menu_mm">
 					<li class="page_menu_item has-children menu_mm">
-						<a href="index.html">Home<i class="fa fa-angle-down"></i></a>
+						<a href="index.php">Home<i class="fa fa-angle-down"></i></a>
 						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="categories.html">Categories<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="product.html">Product<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="cart.html">Cart<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="checkout.html">Checkout<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Categories<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="product.php">Product<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="cart.php">Cart<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="checkout.php">Checkout<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="contact.php">Contact<i class="fa fa-angle-down"></i></a></li>
 						</ul>
 					</li>
 					<li class="page_menu_item has-children menu_mm">
-						<a href="categories.html">Categories<i class="fa fa-angle-down"></i></a>
+						<a href="categories.php">Categories<i class="fa fa-angle-down"></i></a>
 						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
+							<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
 						</ul>
 					</li>
-					<li class="page_menu_item menu_mm"><a href="index.html">Accessories<i class="fa fa-angle-down"></i></a></li>
+					<li class="page_menu_item menu_mm"><a href="index.php">Accessories<i class="fa fa-angle-down"></i></a></li>
 					<li class="page_menu_item menu_mm"><a href="#">Offers<i class="fa fa-angle-down"></i></a></li>
-					<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
+					<li class="page_menu_item menu_mm"><a href="contact.php">Contact<i class="fa fa-angle-down"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -210,9 +210,9 @@
 						<!-- Product -->
 						<div class="product">
 							<div class="product_image"><img src="images/product_1.jpg" alt=""></div>
-							<div class="product_extra product_new"><a href="categories.html">new</a></div>
+							<div class="product_extra product_new"><a href="categories.php">new</a></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">線上評分</a></div>
+								<div class="product_title"><a href="product.php">線上評分</a></div>
 								<div class="product_price">Online Grading</div>
 							</div>
 						</div>
@@ -220,9 +220,9 @@
 						<!-- Product -->
 						<div class="product">
 							<div class="product_image"><img src="images/product_2.jpg" alt=""></div>
-							<div class="product_extra product_sale"><a href="categories.html">New</a></div>
+							<div class="product_extra product_sale"><a href="categories.php">New</a></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">組別名單</a></div>
+								<div class="product_title"><a href="product.php">組別名單</a></div>
 								<div class="product_price">Group List</div>
 							</div>
 						</div>
@@ -231,7 +231,7 @@
 						<div class="product">
 							<div class="product_image"><img src="images/product_3.jpg" alt=""></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">評分標準</a></div>
+								<div class="product_title"><a href="product.php">評分標準</a></div>
 								<div class="product_price">Standards</div>
 							</div>
 						</div>
@@ -240,7 +240,7 @@
 						<div class="product">
 							<div class="product_image"><img src="images/product_4.jpg" alt=""></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">帳號管理</a></div>
+								<div class="product_title"><a href="product.php">帳號管理</a></div>
 								<div class="product_price">Account</div>
 							</div>
 						</div>

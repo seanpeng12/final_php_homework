@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html lang="en">
 
 <head>
@@ -19,7 +19,7 @@
 		<!-- Modal -->
 		<div class="modal fade bg-example-modal-lg" id="myModal" role="dialog">
 			<div class="modal-dialog modal-lg">
-				<form action="contact.html">
+				<form action="contact.php">
 					<!-- Modal content-->
 					<div class="modal-content">
 						<div class="modal-header">
@@ -31,7 +31,7 @@
 						</div>
 						<div class="modal-footer">
 							<input type="button"  class="btn btn-default" value="確定">
-							<!-- 亦可加    onclick="javascript:location.href='Sign_in.html'"    進class中(免form)-->
+							<!-- 亦可加    onclick="javascript:location.href='Sign_in.php'"    進class中(免form)-->
 						</div>
 					</div>
 				</form>
@@ -50,31 +50,31 @@
 								<nav class="main_nav">
 									<ul>
 										<li class="hassubs active">
-											<a href="index.html">Home</a>
+											<a href="index.php">Home</a>
 											<ul>
-												<li><a href="categories.html">管理者工具</a></li>
-												<li><a href="product.html">Product</a></li>
-												<li><a href="cart.html">Cart</a></li>
-												<li><a href="checkout.html">Check out</a></li>
-												<li><a href="contact.html">登入</a></li>
+												<li><a href="categories.php">管理者工具</a></li>
+												<li><a href="product.php">Product</a></li>
+												<li><a href="cart.php">Cart</a></li>
+												<li><a href="checkout.php">Check out</a></li>
+												<li><a href="contact.php">登入</a></li>
 											</ul>
 										</li>
 										<li class="hassubs">
-											<a href="categories.html">管理者工具</a>
+											<a href="categories.php">管理者工具</a>
 											<ul>
-												<li><a href="categories.html">帳號權限</a></li>
-												<li><a href="categories.html">專題評分</a></li>
-												<li><a href="categories.html">專題分組</a></li>
-												<li><a href="categories.html">專題文件</a></li>
+												<li><a href="categories.php">帳號權限</a></li>
+												<li><a href="categories.php">專題評分</a></li>
+												<li><a href="categories.php">專題分組</a></li>
+												<li><a href="categories.php">專題文件</a></li>
 											</ul>
 										</li>
-										<li><a href="contact.html">登入</a></li>
-										<li><a href="Sign_in.html">註冊</a></li>
+										<li><a href="contact.php">登入</a></li>
+										<li><a href="Sign_in.php">註冊</a></li>
 									</ul>
 								</nav>
 								<div class="header_extra ml-auto">
 									<div class="shopping_cart">
-										<a href="cart.html">
+										<a href="cart.php">
 											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 											 viewBox="0 0 489 489" style="enable-background:new 0 0 489 489;" xml:space="preserve">
 												<g>
@@ -155,27 +155,27 @@
 					</div>
 					<ul class="page_menu_nav menu_mm">
 						<li class="page_menu_item has-children menu_mm">
-							<a href="index.html">Home<i class="fa fa-angle-down"></i></a>
+							<a href="index.php">Home<i class="fa fa-angle-down"></i></a>
 							<ul class="page_menu_selection menu_mm">
-								<li class="page_menu_item menu_mm"><a href="categories.html">Categories<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="product.html">Product<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="cart.html">Cart<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="checkout.html">Checkout<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="categories.php">Categories<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="product.php">Product<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="cart.php">Cart<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="checkout.php">Checkout<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="contact.php">Contact<i class="fa fa-angle-down"></i></a></li>
 							</ul>
 						</li>
 						<li class="page_menu_item has-children menu_mm">
-							<a href="categories.html">Categories<i class="fa fa-angle-down"></i></a>
+							<a href="categories.php">Categories<i class="fa fa-angle-down"></i></a>
 							<ul class="page_menu_selection menu_mm">
-								<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="categories.php">Category<i class="fa fa-angle-down"></i></a></li>
 							</ul>
 						</li>
-						<li class="page_menu_item menu_mm"><a href="index.html">Accessories<i class="fa fa-angle-down"></i></a></li>
+						<li class="page_menu_item menu_mm"><a href="index.php">Accessories<i class="fa fa-angle-down"></i></a></li>
 						<li class="page_menu_item menu_mm"><a href="#">Offers<i class="fa fa-angle-down"></i></a></li>
-						<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
+						<li class="page_menu_item menu_mm"><a href="contact.php">Contact<i class="fa fa-angle-down"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -204,9 +204,9 @@
 								<div class="home_content">
 									<div class="breadcrumbs">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="contact.html">歡迎頁面</a></li>
-											<li><a href="Sign_in.html">驗證LDAP</a></li>
+											<li><a href="index.php">Home</a></li>
+											<li><a href="contact.php">歡迎頁面</a></li>
+											<li><a href="Sign_in.php">驗證LDAP</a></li>
 											<li>修改個人資料</li>
 										</ul>
 									</div>
@@ -231,7 +231,7 @@
 							<div>
 								<h1>修改您的個人資料</h1>
 							</div>
-							<form action="contact.html" id="contact_form" class="contact_form" method="POST">
+							<form action="contact.php" id="contact_form" class="contact_form" method="POST">
 								<div class="contact_info_title">
 									<h3>說明</h3>
 									<h4>若資料有誤請修改。</h4>
